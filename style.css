@@ -101,8 +101,8 @@ h1 {
 }
 
 .cyberpunk {
-  aspect-ratio: 1 / 1;
-  width: 40%;
+  width: 50%;
+  object-fit: contain;
 }
 
 /* Middle Section */
