@@ -124,10 +124,12 @@ h2 {
   width: 350px;
   height: auto;
   box-shadow: 0 0 10px 0 white;
+  transition: all 0.2s ease-in out;
 }
 
 .card:hover {
   box-shadow: 0 0 10px 0 #3882f6;
+  transform: scale(1.1);
 }
 
 .container-cards {
