@@ -124,7 +124,9 @@ h2 {
   width: 350px;
   height: auto;
   box-shadow: 0 0 10px 0 white;
-  transition: all 0.5s ease-in out;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out();
 }
 
 .card:hover {
